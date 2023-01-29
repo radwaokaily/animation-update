@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first--section{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(to right,orange,red);
+    padding:30px 0;
+}
+.coloring{
+    width: 100%;
+    height: 70%;
+   margin: auto;
+   padding:20px 0;
+}
+.taxt--and--number{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+.taxt--and--number .text{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.numbers{
+    width: 40%;
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number{
+    color: white;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+    width: 23%;
+    height: 100%;
+    font-size: 15px;
+    
+}
+.second--section{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image--text{
+    line-height: 30px;
+    width: 30%;
+    font-size: 20px;
+}
+.image--text ul{
+    margin-top: 30px;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+.image--text  a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+.third--section{
+    height: 800px;
+    margin-top: 10vh;
+    padding: 2%;
+}
+.third-text{
+    text-align: center;
+}
+.member{
+    height: 700px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.member--image{
+    width: 20%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.member--image img{
+    width: 100%;
+    height: 100%; 
+    
+}
+.rectangle {
+    background-image: linear-gradient(to right,orange,red);
+    width: 20vh;
+    height: 5vh;
+    position: absolute;
+    left: 60px;
+    top:-30px;
+    transition: all 1s;
+    opacity: 0;
+}
+.social{
+    background-color: white;
+    width: 25vh;
+    height: 10vh;
+    position: absolute;
+    left: -160px;
+    bottom: 50px;
+    transition: all 1s;
+    opacity: 0;
+}
+.social h5{
+    padding: 3vh 1vh;
+}
+.social span{
+    color: red;
+    font-size: 10px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+     padding: 5px;
+}
+.icon a{
+    text-decoration: none;
+    border-radius: 100%;
+
+}
+.icon i{
+    width: 20%;
+    height: 100%;
+    color:white;
+    margin: 1px;
+    text-align: center;
+    padding-top: 1vh;
+}
+.member--image:hover .rectangle {
+    top:0;
+    opacity: 1;
+}
+.member--image:hover .social {
+    left: 20px;
+    opacity: 1;
+}
